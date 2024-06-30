@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Carousel from '../components/Carasoul';
 import QuoteForm from '../components/QuoteForm';
-import favicon from '/Users/irvinglamadrid/new-painting-company/frontend/src/favicon.ico'; // Adjust the path if necessary
 
 const Home = () => {
   const [isQuoteFormOpen, setIsQuoteFormOpen] = useState(false);

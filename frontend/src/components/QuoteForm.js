@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import favicon from '/Users/irvinglamadrid/new-painting-company/frontend/src/favicon.ico'; // Adjust the path if necessary
-import social1 from '/Users/irvinglamadrid/new-painting-company/frontend/src/svgs/social1.svg';
-import social2 from '/Users/irvinglamadrid/new-painting-company/frontend/src/svgs/social2.svg';
-import social3 from '/Users/irvinglamadrid/new-painting-company/frontend/src/svgs/social3.svg';
+import logo from '/Users/irvinglamadrid/LPP/frontend/src/logo.png'; // Adjust the path if necessary
+import social1 from '/Users/irvinglamadrid/LPP/frontend/src/social1.svg';
+import social2 from '/Users/irvinglamadrid/LPP/frontend/src/social2.svg';
+import social3 from '/Users/irvinglamadrid/LPP/frontend/src/social3.svg';
 
 const QuoteForm = ({ onClose }) => {
   const [step, setStep] = useState(1);
@@ -236,7 +236,7 @@ const QuoteForm = ({ onClose }) => {
       {step === 3 && (
         <div className="text-center">
           <div className="flex flex-col items-center justify-center mb-4">
-            <img src={favicon} alt="favicon" className="w-24 h-24 mr-2" />
+            <img src={logo} alt="favicon" className="w-24 h-24 mr-2" />
             <h1 className="text-2xl font-bold text-[#293132] font-montserrat">Lamadrid Precision Painting</h1>
           </div>
           <p className="text-green-500 mb-4 text-xl font-bold">Thank you for choosing us!</p>

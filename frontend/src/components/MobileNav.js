@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import favicon from '/Users/irvinglamadrid/new-painting-company/frontend/src/favicon.ico'; // Adjust the path if necessary
+import logo from '/Users/irvinglamadrid/LPP/frontend/src/logo.png'; // Adjust the path if necessary
 
 const MobileNav = ({ closeMenu, openQuoteForm }) => {
   const location = useLocation();
@@ -21,7 +21,7 @@ const MobileNav = ({ closeMenu, openQuoteForm }) => {
         &times;
       </button>
       <div className="flex flex-col items-center mb-8">
-        <img src={favicon} alt="favicon" className="w-16 h-16 mb-4" />
+        <img src={logo} alt="favicon" className="w-16 h-16 mb-4" />
         <span className="text-2xl font-bold text-center text-[#293132]">Lamadrid Precision Painting</span>
       </div>
       <Link to="/" className={linkClass('/')} onClick={closeMenu}>Home</Link>

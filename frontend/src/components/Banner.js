@@ -1,5 +1,5 @@
 import React from 'react';
-import phoneSvg from '/Users/irvinglamadrid/new-painting-company/frontend/src/svgs/phone.svg'; // Adjust the path if necessary
+import phoneSvg from '/Users/irvinglamadrid/LPP/frontend/src/phone.svg'; // Adjust the path if necessary
 
 const Banner = () => {
   return (

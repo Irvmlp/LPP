@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import favicon from '/Users/irvinglamadrid/new-painting-company/frontend/src/favicon.ico'; // Adjust the path if necessary
+import logo from '/Users/irvinglamadrid/LPP/frontend/src/logo.png'; // Adjust the path if necessary
 import MobileNav from './MobileNav'; // Adjust the path if necessary
 
 const NavBar = ({ openQuoteForm }) => {
@@ -35,7 +35,7 @@ const NavBar = ({ openQuoteForm }) => {
   return (
     <nav className="font-sans absolute top-8 md:top-12 left-1/2 transform rounded-xl -translate-x-1/2 bg-white border-4 border-gray-200 p-1 md:p-2 md:mx-2 lg:p-4 z-20 flex justify-between items-center w-full max-w-screen-xl">
       <div className="flex items-center text-2xl font-bold text-[#293132] font-montserrat ">
-        <img src={favicon} alt="favicon" className="w-8 h-8 mr-2" />
+        <img src={logo} alt="favicon" className="w-8 h-8 mr-2" />
         <span className="hidden text-sm md:text-lg md:inline">{getTitle()}</span>
         <span className="inline md:hidden text-xs sm:text-sm ">Lamadrid Painting</span>
       </div>
