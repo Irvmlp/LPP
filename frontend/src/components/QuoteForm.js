@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import logo from '/Users/irvinglamadrid/LPP/frontend/src/logo.png'; // Adjust the path if necessary
-import social1 from '/Users/irvinglamadrid/LPP/frontend/src/social1.svg';
-import social2 from '/Users/irvinglamadrid/LPP/frontend/src/social2.svg';
-import social3 from '/Users/irvinglamadrid/LPP/frontend/src/social3.svg';
+import logo from '../assets/logo.png'; // Adjust the path if necessary
+import social1 from '../assets/social1.svg';
+import social2 from '../assets/social2.svg';
+import social3 from '../assets/social3.svg';
 
 const QuoteForm = ({ onClose }) => {
   const [step, setStep] = useState(1);

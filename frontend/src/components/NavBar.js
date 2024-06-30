@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '/Users/irvinglamadrid/LPP/frontend/src/logo.png'; // Adjust the path if necessary
+import logo from '../assets/logo.png'; // Adjust the path if necessary
 import MobileNav from './MobileNav'; // Adjust the path if necessary
 
 const NavBar = ({ openQuoteForm }) => {

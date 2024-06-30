@@ -3,8 +3,8 @@ import Carousel from '../components/Carasoul'; // Ensure this path is correct
 import ProjectCard from '../components/ProjectCard';
 import projects from '../data/projects';
 import QuoteForm from '../components/QuoteForm';
-import RightArrow from '/Users/irvinglamadrid/LPP/frontend/src/RightArrow.svg';
-import LeftArrow from '/Users/irvinglamadrid/LPP/frontend/src/LeftArrow.svg';
+import RightArrow from '../assets/RightArrow.svg';
+import LeftArrow from '../assets/LeftArrow.svg';
 
 const Gallery = () => {
   const [isQuoteFormOpen, setIsQuoteFormOpen] = useState(false);
